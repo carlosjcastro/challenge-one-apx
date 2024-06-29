@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Challenge 1 - CJCG</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>¡Battle Now!</h1>
+    <div class="players">
+      <div class="player" id="jugador1">
+        <h2>Player 1</h2>
+        <p>Name: <span id="nombre1">Marce</span></p>
+        <p>Attack: <span id="ataque1">70</span></p>
+        <p>Velocity: <span id="velocidad1">30</span></p>
+        <p>Life: <span id="vida1">60</span></p>
+        <p>Magic: <span id="magia1">120</span></p>
+        <p>Articles: <span id="articulos1">Sword | Shield | Wand</span></p>
+      </div>
+      <div class="player" id="jugador2">
+        <h2>Player 2</h2>
+        <p>Name: <span id="nombre2">Flor</span></p>
+        <p>Atack: <span id="ataque2">73</span></p>
+        <p>Velocity: <span id="velocidad2">30</span></p>
+        <p>Life: <span id="vida2">80</span></p>
+        <p>Magic: <span id="magia2">100</span></p>
+        <p>Articles: <span id="articulos2">Shield, Wand, Cape, Posion</span></p>
+      </div>
+    </div>
+    <button id="compareButton">Compare</button>
+    <div id="result">
+      <h2>Result</h2>
+      <p id="puntosJugador1">Points Player 1: <span id="puntos1">0</span></p>
+      <p>Points Player 2: <span id="puntos2">0</span></p>
+      <p>Winner: <span id="ganador"></span></p>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2024. Designed & Developed <a href="https://www.linkedin.com/in/carlosjcastrog/" target="_blank" rel="noopener noreferrer">Carlos José Castro Galante</a></p>
+  </footer>
+  <script src="desafio.js"></script>
+</body>
+</html>
